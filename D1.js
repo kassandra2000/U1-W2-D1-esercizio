@@ -20,25 +20,25 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let myName = "Kassandra"
-console.log(myName)
+let myName = "Kassandra";
+console.log(myName);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let number1 = 12
-let number2 = 20
-console.log("somma tra 12+20")
-console.log(number1+number2)
+let number1 = 12;
+let number2 = 20;
+console.log("somma tra 12+20");
+console.log(number1 + number2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12
+let x = 12;
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -46,20 +46,20 @@ let x = 12
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-myName= "falsitta"
-console.log(myName)
+myName = "falsitta";
+console.log(myName);
 //se invece è una costante dà un errore
-const myName2= "Kassandra"
+const myName2 = "Kassandra";
 // myName2="falsitta" (lo commento altrimenti mi da errore)
-console.log(myName2)
+console.log(myName2);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("sottrazione tra numeri 4 e 12")
-console.log(4-x)
+console.log("sottrazione tra numeri 4 e 12");
+console.log(4 - x);
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
@@ -67,12 +67,18 @@ console.log(4-x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1= "john"
-let name2= "John"
+let name1 = "john";
+let name2 = "John";
 
-console.log("dimostrare la diversità")
-let notEquality=(name1 !== name2) ? "si name1 e name2 sono diversi" : "no name1 e name2 non sono diversi(quindi sono uguali)"
-console.log(notEquality)
+console.log("dimostrare la diversità");
+let notEquality =
+  name1 !== name2
+    ? "si name1 e name2 sono diversi"
+    : "no name1 e name2 non sono diversi(quindi sono uguali)";
+console.log(notEquality);
 
-let equality=(name1 === name2.toLowerCase()) ? "si, sono uguali con il lowercase di name2":"no, non sono uguali con il lowercase di name2"
-console.log(equality)
+let equality =
+  name1 === name2.toLowerCase()
+    ? "si, sono uguali con il lowercase di name2"
+    : "no, non sono uguali con il lowercase di name2";
+console.log(equality);
