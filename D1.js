@@ -13,7 +13,9 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// JavaScript prevede cinque tipi di dati primitivi, numeri, stringhe, booleani, null e undefined
+console.log(
+  " JavaScript prevede cinque tipi di dati primitivi: numeri'23', stringhe'parole', booleani'true e false', null 'diciamo al contenitore che è vuoto intenzionalmente(per nostra volontà)' e undefined'la variabile c'è ma non è stata definita es: (let nome= )'"
+);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -46,15 +48,18 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("cambiare variabile")
+console.log("cambiare variabile");
 myName = "falsitta";
 console.log(myName);
 //se invece è una costante dà un errore
-console.log("questa è una costante")
+console.log("questa è una costante");
 const myName2 = "Kassandra";
+
 // myName2="falsitta" (lo commento altrimenti mi da errore)
 console.log(myName2);
-
+console.log(
+  "myName2='falsitta' (è stato commentato perchè dava errore 'non si può cambiare una costante')"
+);
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -72,14 +77,14 @@ console.log(4 - x);
 let name1 = "john";
 let name2 = "John";
 
-console.log("dimostrare la diversità");
+console.log("dimostrare la diversità tra name1 e name2");
 let notEquality =
   name1 !== name2
     ? "si name1 e name2 sono diversi"
     : "no name1 e name2 non sono diversi(quindi sono uguali)";
 console.log(notEquality);
 
-console.log("dimostrare l'uguaglianza con lowercase");
+console.log("dimostrare l'uguaglianza tra name1 e name2 con .toLowerCase()");
 let equality =
   name1 === name2.toLowerCase()
     ? "si, sono uguali con il lowercase di name2"
