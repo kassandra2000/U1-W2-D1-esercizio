@@ -46,9 +46,11 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("cambiare variabile")
 myName = "falsitta";
 console.log(myName);
 //se invece è una costante dà un errore
+console.log("questa è una costante")
 const myName2 = "Kassandra";
 // myName2="falsitta" (lo commento altrimenti mi da errore)
 console.log(myName2);
@@ -77,6 +79,7 @@ let notEquality =
     : "no name1 e name2 non sono diversi(quindi sono uguali)";
 console.log(notEquality);
 
+console.log("dimostrare l'uguaglianza con lowercase");
 let equality =
   name1 === name2.toLowerCase()
     ? "si, sono uguali con il lowercase di name2"
